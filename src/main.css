@@ -1,3 +1,4 @@
+/* eslint-disable-next-line tailwindcss/no-unknown-at-rule */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

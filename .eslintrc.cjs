@@ -10,5 +10,6 @@ module.exports = {
   plugins: ['react-refresh'],
   rules: {
     'react-refresh/only-export-components': 'warn',
+    "tailwindcss/no-unknown-at-rule": "off"
   },
 }
