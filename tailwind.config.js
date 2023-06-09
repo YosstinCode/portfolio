@@ -13,7 +13,12 @@ export default {
       },
       colors: {
         nav: 'rgba(206, 231, 241, 0.4)',
-        azulito: '#01A1FA'
+        azulito: '#01A1FA',
+        grisecito: '#313040',
+        primary: '#012A41',
+        secondary: '#00A4FF',
+        borderShadow: '#1B4A64'
+
       },
       boxShadow: {
         nav: '0px 1px 22px rgba(0, 0, 0, 0.05);'
