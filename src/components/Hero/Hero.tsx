@@ -3,7 +3,7 @@ import TextGradientOrWhite from '../TextGradientOrWhite/TextGradient'
 
 const Hero = () => {
   return (
-    <div className=' w-[34.375rem] flex flex-col justify-center items-center gap-y-6 pt-16'>
+    <div className=' w-[34.375rem] flex flex-col justify-center items-center gap-y-6 pt-6'>
       <div className='text-center'>
         <h1>
           <TextGradientOrWhite text='Yosstin Steven Castillo' />
