@@ -52,6 +52,23 @@ export const projects = [
     deploy: '',
     figma: '',
     doc: ''
+  },
+  {
+    id: 7,
+    name: 'Project 7',
+    image: '../assets/images/image.jpg',
+    github: '',
+    deploy: '',
+    figma: '',
+    doc: ''
+  },
+  {
+    id: 8,
+    name: 'Project 8',
+    image: '../assets/images/image.jpg',
+    github: '',
+    deploy: '',
+    figma: '',
+    doc: ''
   }
-
 ]

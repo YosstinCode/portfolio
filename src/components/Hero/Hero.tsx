@@ -1,4 +1,5 @@
 import Button from '../Button/Button'
+import ButtonsCvContact from '../PairButtonCvContact/ButtonsCvContact'
 import TextGradientOrWhite from '../TextGradientOrWhite/TextGradient'
 
 const Hero = () => {
@@ -15,11 +16,7 @@ const Hero = () => {
       <p className='text-normal text-grisecito w-[34.375rem] text-center '>
         Especializado en tecnologías frontend. Me dedico a crear sitios y aplicaciones web que sean no solo funcionales sino también visualmente atractivas. Busco trabajar en proyectos emocionantes y desafiantes.
       </p>
-      <div className='flex gap-6'>
-        <Button text='Contactame' path='/Contacto' />
-        <Button text='Curriculum' isShadow path='/curriculum' />
-        {/* <ShadowButton /> */}
-      </div>
+      <ButtonsCvContact />
 
     </div>
   )
