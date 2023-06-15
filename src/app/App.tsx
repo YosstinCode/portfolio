@@ -6,7 +6,7 @@ import Projects from '../pages/Projects'
 
 const App = () => {
   return (
-    <div className='min-h-screen px-[7.438rem] bg-background'>
+    <div className='min-h-screen px-[7.438rem] bg-background  bg-no-repeat object-contain'>
       <Routes>
         <Route path='/' element={<Nav />}>
           <Route path='/' element={<Home />} />
