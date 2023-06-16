@@ -14,10 +14,15 @@ export default {
       colors: {
         nav: 'rgba(206, 231, 241, 0.4)',
         azulito: '#01A1FA',
+        azulitoHover: '#007DC2',
         grisecito: '#313040',
         primary: '#012A41',
         secondary: '#00A4FF',
-        borderShadow: '#1B4A64'
+        borderShadow: '#1B4A64',
+        circle1: '#71FBFF',
+        circle2: '#114E51',
+        circle3: '#31B3C1',
+        circle4: '#226F6D'
 
       },
       boxShadow: {
@@ -25,7 +30,15 @@ export default {
       },
       fontFamily: {
         sans: ['Poppins', defaultTheme.fontFamily.sans]
+      },
+      keyframes: {
+        'fade-in': {
+          '0%': { transform: 'translateY(9rem) translateX(-10rem)', opacity: '0' },
+          '50%': { opacity: '0.5' },
+          '100%': { transform: 'translateY(0rem) translateX(0rem)', opacity: '1' }
+        }
       }
+
     }
 
   },
