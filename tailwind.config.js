@@ -26,7 +26,8 @@ export default {
 
       },
       boxShadow: {
-        nav: '0px 1px 22px rgba(0, 0, 0, 0.05);'
+        nav: '0px 1px 22px rgba(0, 0, 0, 0.05);',
+        innerInputs: '0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset, 0px -4px 4px 0px rgba(255, 255, 255, 0.25) inset;'
       },
       fontFamily: {
         sans: ['Poppins', defaultTheme.fontFamily.sans]
