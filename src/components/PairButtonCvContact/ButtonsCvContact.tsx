@@ -1,10 +1,12 @@
 import Button from '../Button/Button'
+import ButtonShadow from '../ButtonShadow/ButtonShadow'
+import cv from '../../assets/doc/CV-Yosstin.pdf'
 
 const ButtonsCvContact = () => {
   return (
     <div className='flex gap-6'>
-      <Button text='Contactame' path='/Contacto' />
-      <Button text='Curriculum' isShadow path='/curriculum' />
+      <Button text='Contactame' path='/contacto' />
+      <ButtonShadow text='Curriculum' path={cv} />
       {/* <ShadowButton /> */}
     </div>
   )
