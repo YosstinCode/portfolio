@@ -19,6 +19,7 @@ export default {
         primary: '#012A41',
         secondary: '#00A4FF',
         borderShadow: '#1B4A64',
+        placeholder: '#114E51',
         circle1: '#71FBFF',
         circle2: '#114E51',
         circle3: '#31B3C1',
@@ -27,7 +28,8 @@ export default {
       },
       boxShadow: {
         nav: '0px 1px 22px rgba(0, 0, 0, 0.05);',
-        innerInputs: '0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset, 0px -4px 4px 0px rgba(255, 255, 255, 0.25) inset;'
+        innerInputs: '0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset, 0px -4px 4px 0px rgba(255, 255, 255, 0.25) inset;',
+        form: '5px 5px 4px 0px rgba(0, 0, 0, 0.25) inset, -5px -5px 4px 0px rgba(206, 231, 241, 0.60) inset, -5px -5px 15px 0px #CEE7F1, 5px 5px 15px 0px rgba(163, 177, 198, 0.60);'
       },
       fontFamily: {
         sans: ['Poppins', defaultTheme.fontFamily.sans]
