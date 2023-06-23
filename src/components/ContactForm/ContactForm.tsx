@@ -7,7 +7,7 @@ const ContactForm = () => {
 
   return (
 
-    <form onSubmit={handleSubmit} className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col justify-center items-center gap-4 rounded-[30px] w-[50rem] h-[32.813rem] shadow-form mx-auto'>
+    <form onSubmit={handleSubmit} className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col justify-center items-center gap-4 rounded-[30px] w-[50rem] h-[32.813rem] shadow-form mx-auto animate-open-section-form'>
       <div className='flex flex-col justify-center items-center'>
         <TextGradientOrWhite text='Tu idea mi compromiso' />
         <TextGradientOrWhite text='Trabajemos juntos' isGradient />

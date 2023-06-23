@@ -5,9 +5,11 @@ import me from '../assets/images/me.png'
 const Home = () => {
   return (
     <>
-      <Hero />
-      <RecentProjectSection />
-      <img className='absolute right-0 bottom-0' src={me} width={550} height={600} />
+      <div className='animate-open-section'>
+        <Hero />
+        <RecentProjectSection />
+      </div>
+      <img className='absolute right-0 bottom-0 ' src={me} width={550} height={600} />
     </>
   )
 }

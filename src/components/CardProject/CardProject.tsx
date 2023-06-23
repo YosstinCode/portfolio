@@ -18,6 +18,9 @@ const CardProject = ({ name, github = '#', figma = '#', doc = '#', deploy = '#' 
       <div className='group w-56 h-[10.5rem] bg-gray-600 rounded-2xl relative'>
         <img className=' h-full rounded-2xl' src={image} alt='image' />
         <div className='pointer-events-none cursor-default absolute flex opacity-0 ease-out duration-500 left-2/4 top-0 justify-center items-center h-full w-full gap-4 bg-black rounded-2xl group-hover:left-0 group-hover:top-0 group-hover:opacity-90'>
+          <a href={deploy}>
+            <img src={deployIcon} alt='deploy icon' className='pointer-events-auto' />
+          </a>
           <a href={github}>
             <img src={githubIcon} alt='github icon' className='pointer-events-auto' />
           </a>
@@ -26,9 +29,6 @@ const CardProject = ({ name, github = '#', figma = '#', doc = '#', deploy = '#' 
           </a>
           <a href={doc}>
             <img src={docIcon} alt='doc icon' className='pointer-events-auto' />
-          </a>
-          <a href={deploy}>
-            <img src={deployIcon} alt='deploy icon' className='pointer-events-auto' />
           </a>
         </div>
       </div>

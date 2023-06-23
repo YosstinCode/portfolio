@@ -7,14 +7,15 @@ import { projects } from '../db/projects'
 const Projects = () => {
   return (
     <>
-      <main className='flex flex-col justify-center items-center gap-y-12 pt-6 text-center'>
-        <Circles position='top-12 right-0' rotate />
+      <Circles position='top-12 right-0' rotate />
+      <section className='flex flex-col justify-center items-center gap-y-12 pt-6 text-center animate-open-section'>
         <TextGradientOrWhite text='Proyectos' isGradient />
         <ListCardsProjects projects={projects} cols />
         <ButtonsCvContact />
-        <Circles position='bottom-0 left-0' />
-      </main>
+      </section>
+      <Circles position='bottom-0 left-0' />
     </>
+
   )
 }
 

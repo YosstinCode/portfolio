@@ -39,9 +39,20 @@ export default {
           '0%': { transform: 'translateY(9rem) translateX(-10rem)', opacity: '0' },
           '50%': { opacity: '0.5' },
           '100%': { transform: 'translateY(0rem) translateX(0rem)', opacity: '1' }
+        },
+        'open-section': {
+          '0%': { transform: 'translateY(2rem)', opacity: '0' },
+          '100%': { transform: 'translateY(0rem)', opacity: '1' }
+        },
+        'open-section-form': {
+          '0%': { top: '55%', opacity: '0' },
+          '100%': { top: '50%', opacity: '1' }
         }
+      },
+      animation: {
+        'open-section': 'open-section 500ms ease-in-out',
+        'open-section-form': 'open-section-form 500ms ease-in-out'
       }
-
     }
 
   },
