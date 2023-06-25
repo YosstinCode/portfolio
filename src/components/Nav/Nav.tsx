@@ -14,7 +14,7 @@ const Nav = () => {
     <>
       <nav className='font-medium text-white'>
 
-        <ul className='flex justify-center h-12 w-[70.5rem] rounded-b-[1.875rem] gap-x-9 bg-nav shadow-nav mx-auto'>
+        <ul className='flex justify-center h-12 w-[70.5rem] rounded-b-[1.875rem] gap-x-9 bg-slate-800 shadow-nav mx-auto'>
           {Object.entries(pages).map((page) => {
             const linkClass = 'border-b-2 hover:border-white' + (location.pathname === page[1] ? ' border-azulito' : ' border-transparent')
 
