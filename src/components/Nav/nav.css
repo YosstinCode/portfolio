@@ -1,0 +1,35 @@
+
+    @keyframes circle-open{
+        0%{
+            clip-path: circle(0.0% at 50% 0);
+            opacity: 0;
+        }
+        100%{
+            clip-path: circle(100% at 50% 50%);
+            opacity: 1;
+        }
+    }
+    
+    @keyframes circle-close {
+        0%{
+            clip-path: circle(100% at 50% 50%);
+            opacity: 1;
+        }
+        100%{
+            clip-path: circle(0.0% at 50% 0);
+            opacity: 0;
+        }
+    }
+    
+    .circle-open{
+        animation: circle-open 1s ease-in-out forwards;
+    }
+    
+    .circle-close{
+        animation: circle-close .5s ease-in-out forwards;
+    }
+
+
+
+
+

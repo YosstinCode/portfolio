@@ -9,7 +9,7 @@ const Home = () => {
         <Hero />
         <RecentProjectSection />
       </div>
-      <img className='absolute right-0 bottom-0 ' src={me} width={550} height={600} />
+      <img className='absolute right-0 bottom-0 hidden lg:block' src={me} width={550} height={600} />
     </>
   )
 }

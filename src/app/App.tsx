@@ -1,14 +1,14 @@
-import Nav from '../components/Nav/Nav'
 import { Routes, Route } from 'react-router-dom'
 import Home from '../pages/Home'
 import Contact from '../pages/Contact'
 import Projects from '../pages/Projects'
+import OutletLayout from '../components/OutletLayout/outletLayout'
 
 const App = () => {
   return (
-    <div className='min-h-screen px-[7.438rem] bg-background bg-no-repeat bg-cover'>
+    <div className='min-h-screen px-4 lg:px-[7.438rem] bg-background bg-no-repeat bg-cover'>
       <Routes>
-        <Route path='/' element={<Nav />}>
+        <Route path='/' element={<OutletLayout />}>
           <Route path='/' element={<Home />} />
           <Route path='contacto' element={<Contact />} />
           <Route path='proyectos' element={<Projects />} />
