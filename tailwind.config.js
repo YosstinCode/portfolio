@@ -8,6 +8,9 @@ export default {
   ],
   theme: {
     extend: {
+      gridTemplateColumns: {
+        projects: 'repeat(4, minmax(14rem, 1fr))'
+      },
       aspectRatio: {
         '4/3': '4 / 3'
       },
@@ -45,17 +48,12 @@ export default {
           '100%': { transform: 'translateY(0rem) translateX(0rem)', opacity: '1' }
         },
         'open-section': {
-          '0%': { transform: 'translateY(2rem)', opacity: '0' },
-          '100%': { transform: 'translateY(0rem)', opacity: '1' }
-        },
-        'open-section-form': {
           '0%': { top: '55%', opacity: '0' },
           '100%': { top: '50%', opacity: '1' }
         }
       },
       animation: {
-        'open-section': 'open-section 500ms ease-in-out',
-        'open-section-form': 'open-section-form 500ms ease-in-out'
+        'open-section': 'open-section 500ms ease-in-out'
       }
     }
 

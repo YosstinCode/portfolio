@@ -6,7 +6,7 @@ import OutletLayout from '../components/OutletLayout/outletLayout'
 
 const App = () => {
   return (
-    <div className='min-h-screen px-4 lg:px-[7.438rem] bg-background bg-no-repeat bg-cover'>
+    <div className='min-h-screen lg:px-[7.438rem] bg-background bg-no-repeat bg-cover'>
       <Routes>
         <Route path='/' element={<OutletLayout />}>
           <Route path='/' element={<Home />} />

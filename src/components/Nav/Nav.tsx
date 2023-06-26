@@ -35,7 +35,7 @@ const Nav = () => {
         {Object.entries(pages).map((page) => {
           const linkClass = 'flex justify-center items-center w-[12.125rem] h-[4.563rem] p-2 border-b-4 lg:w-auto lg:h-auto lg:p-0 lg:border-b-2 hover:border-white' + (location.pathname === page[1] ? ' border-white lg:border-azulito' : ' border-transparent')
 
-          return <li key={page[0]}><Link to={page[1]} className={linkClass}>{page[0]}</Link></li>
+          return <li key={page[0]}><Link to={page[1]} className={linkClass} onClick={handleOpen}>{page[0]}</Link></li>
         })}
       </ul>
 

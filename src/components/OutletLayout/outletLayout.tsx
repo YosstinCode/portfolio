@@ -8,7 +8,9 @@ const OutletLayout = () => {
   return (
     <>
       <Nav />
-      <Outlet />
+      <div className='px-4'>
+        <Outlet />
+      </div>
     </>
   )
 }

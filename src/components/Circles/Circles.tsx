@@ -6,7 +6,7 @@ interface CirclesProps {
 const Circles = ({ position, rotate }: CirclesProps) => {
   const rotateCircle = rotate ? ' rotate-180' : ''
   return (
-    <div className={' overflow-hidden absolute w-[10.5rem] h-[12.938rem] ' + position + rotateCircle}>
+    <div className={' overflow-hidden absolute w-[10.5rem] h-[12.938rem] hidden lg:block ' + position + rotateCircle}>
       <div className='relative w-full max-h-full'>
 
         <div id='circle1' className='absolute animate-[fade-in_2000ms_ease-out] left-[7.5rem] w-[1.875rem] h-[1.875rem] rounded-full bg-circle1' />
