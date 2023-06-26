@@ -16,7 +16,7 @@ const CardProject = ({ name, github = '#', figma = '#', doc = '#', deploy = '#' 
   return (
     <>
       <div className='group w-56 h-[10.5rem] bg-gray-600 rounded-2xl relative flex-grow flex-shrink-0 basis-auto snap-center lg:flex-grow-0'>
-        <img className=' h-full rounded-2xl' src={image} alt='image' />
+        <img className=' h-full rounded-2xl' src={image} alt='image' loading='lazy' />
         <div className='pointer-events-none w-full cursor-default absolute flex opacity-0 ease-out duration-500 left-2/4 top-0 justify-center items-center h-full gap-4 bg-black rounded-2xl group-hover:left-0 group-hover:top-0 group-hover:opacity-90'>
           <a href={deploy}>
             <img src={deployIcon} alt='deploy icon' className='pointer-events-auto' />
