@@ -9,8 +9,8 @@ const ContactForm = () => {
 
     <form onSubmit={handleSubmit} className='flex flex-col justify-center items-center gap-8 lg:gap-4 rounded-[30px] w-[21.438rem] lg:w-[50rem] h-[35rem] lg:h-[33rem] shadow-form mx-auto'>
       <div className='flex flex-col justify-center items-center'>
-        <TextGradientOrWhite text='Tu idea mi compromiso' size='lg' />
-        <TextGradientOrWhite text='Trabajemos juntos' isGradient size='lg' />
+        <TextGradientOrWhite text='Tu idea, mi compromiso.' size='lg' />
+        <TextGradientOrWhite text='¡Trabajemos juntos!' isGradient size='lg' />
       </div>
       <div className='flex flex-col gap-4 items-center text-white'>
         <div className='flex flex-col gap-1'>
