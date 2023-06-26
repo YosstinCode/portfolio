@@ -8,16 +8,16 @@ const Social = () => {
     <div className='flex justify-center items-center mt-12 lg:mt-2 gap-4 lg:gap-2 lg:justify-end lg:items-end'>
 
       <a href='#'>
-        <img src={github} width={50} height={50} className=' w-10 h-10' />
+        <img src={github} width={50} height={50} className=' w-10 h-10' loading='lazy' />
       </a>
       <a href='#'>
-        <img src={linkedin} width={50} height={50} className=' w-10 h-10' />
+        <img src={linkedin} width={50} height={50} className=' w-10 h-10' loading='lazy' />
       </a>
       <a href='#'>
-        <img src={twitter} width={50} height={50} className=' w-10 h-10' />
+        <img src={twitter} width={50} height={50} className=' w-10 h-10' loading='lazy' />
       </a>
       <a href='#'>
-        <img src={instagram} width={50} height={50} className=' w-10 h-10' />
+        <img src={instagram} width={50} height={50} className=' w-10 h-10' loading='lazy' />
       </a>
 
     </div>

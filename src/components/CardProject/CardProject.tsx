@@ -19,16 +19,16 @@ const CardProject = ({ name, github = '#', figma = '#', doc = '#', deploy = '#' 
         <img className=' h-full rounded-2xl' src={image} alt='image' loading='lazy' />
         <div className='pointer-events-none w-full cursor-default absolute flex opacity-0 ease-out duration-500 left-2/4 top-0 justify-center items-center h-full gap-4 bg-black rounded-2xl group-hover:left-0 group-hover:top-0 group-hover:opacity-90'>
           <a href={deploy}>
-            <img src={deployIcon} alt='deploy icon' className='pointer-events-auto' />
+            <img src={deployIcon} alt='deploy icon' className='pointer-events-auto' loading='lazy' />
           </a>
           <a href={github}>
-            <img src={githubIcon} alt='github icon' className='pointer-events-auto' />
+            <img src={githubIcon} alt='github icon' className='pointer-events-auto' loading='lazy' />
           </a>
           <a href={figma}>
-            <img src={figmaIcon} alt='figma icon' className='pointer-events-auto' />
+            <img src={figmaIcon} alt='figma icon' className='pointer-events-auto' loading='lazy' />
           </a>
           <a href={doc}>
-            <img src={docIcon} alt='doc icon' className='pointer-events-auto' />
+            <img src={docIcon} alt='doc icon' className='pointer-events-auto' loading='lazy' />
           </a>
         </div>
       </div>
