@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import menu from './../../assets/images/Menu.png'
-import close from './../../assets/images/Close.png'
+import close from './../../assets/images/close.png'
 import { useState } from 'react'
 import './nav.css'
 
