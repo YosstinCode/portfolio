@@ -15,7 +15,7 @@ export default {
         '4/3': '4 / 3'
       },
       backgroundImage: {
-        background: "url('./src/assets/images/background.png')"
+        background: "url('/src/assets/images/background.png')"
       },
       colors: {
         nav: 'rgba(206, 231, 241, 0.4)',
