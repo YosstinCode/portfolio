@@ -5,14 +5,13 @@ import githubIcon from '../../assets/images/github.png'
 import image from '../../assets/images/image.jpg'
 
 interface CardProjectProps {
-  name: string
   github: string
   figma: string
   doc: string
   deploy: string
 }
 
-const CardProject = ({ name = '#', github = '#', figma = '#', doc = '#', deploy = '#' }: CardProjectProps) => {
+const CardProject = ({ github = '#', figma = '#', doc = '#', deploy = '#' }: CardProjectProps) => {
   return (
     <>
       <div className='group w-56 h-[10.5rem] bg-gray-600 rounded-2xl relative flex-grow flex-shrink-0 basis-auto snap-center lg:flex-grow-0'>

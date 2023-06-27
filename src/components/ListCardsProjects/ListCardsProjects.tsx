@@ -13,7 +13,7 @@ interface ListCardsProjectsProps {
 }
 
 const ListCardsProjects = ({ projects }: ListCardsProjectsProps) => {
-  return projects.map(({ id, name, github, figma, doc, deploy }) => <CardProject key={id} name={name} github={github} figma={figma} doc={doc} deploy={deploy} />)
+  return projects.map(({ id, github, figma, doc, deploy }) => <CardProject key={id} github={github} figma={figma} doc={doc} deploy={deploy} />)
 }
 
 export default ListCardsProjects
