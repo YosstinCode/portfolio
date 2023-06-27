@@ -28,7 +28,7 @@ const CardProject = ({ name, github = '#', figma = '#', doc = '#', deploy = '#' 
             <img src={figmaIcon} alt='figma icon' className='pointer-events-auto' loading='lazy' />
           </a>
           <a href={doc}>
-            <img src={docIcon} alt='doc icon' className={'pointer-events-auto '+name} loading='lazy' />
+            <img src={docIcon} alt='doc icon' className={'pointer-events-auto ' + name} loading='lazy' />
           </a>
         </div>
       </div>
